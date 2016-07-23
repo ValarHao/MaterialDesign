@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/id_navigation_home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="Home"
+            android:checked="true"
+            android:checkable="true"/>
+
+        <item
+            android:title="分组1">
+
+            <menu>
+                <item
+                    android:id="@+id/id_navigation_favorite"
+                    android:icon="@mipmap/ic_favorite_black_24dp"
+                    android:title="Favorite"
+                    android:checkable="true"/>
+
+                <item
+                    android:id="@+id/id_navigation_download"
+                    android:icon="@mipmap/ic_file_download_black_24dp"
+                    android:title="Download"
+                    android:checkable="true"/>
+            </menu>
+        </item>
+
+        <item
+            android:title="分组2">
+
+            <menu>
+                <item
+                    android:id="@+id/id_navigation_more"
+                    android:icon="@mipmap/ic_more_horiz_black_24dp"
+                    android:title="More"
+                    android:checkable="true"/>
+
+                <item
+                    android:id="@+id/id_navigation_settings"
+                    android:icon="@mipmap/ic_settings_black_24dp"
+                    android:title="Settings"
+                    android:checkable="true"/>
+            </menu>
+        </item>
+
+    </group>
+</menu>

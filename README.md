@@ -19,4 +19,6 @@ CollapsingToolbarLayout => 使Toolbar具有拉伸、收缩效果
 
 RecyclerView => RecyclerView、CardView、SwipeRefreshLayout结合运用实现下拉刷新
 
+Animation => 波纹效果和动画展现效果
+
 

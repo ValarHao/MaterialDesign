@@ -1,5 +1,4 @@
 # MaterialDesign
-MaterialDesign
 
 FloatingActionButton => 继承自ImageView，悬浮于layout之上
 
